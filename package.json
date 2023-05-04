@@ -2,7 +2,7 @@
   "name": "KamazYMZCMS",
   "private": true,
   "version": "0.1.0",
-  "description": "A Strapi application",
+  "description": "CMS on Strapi for KamazYMZCMS",
   "scripts": {
     "develop": "strapi develop",
     "start": "strapi start",
@@ -22,7 +22,7 @@
     "twilio": "^4.10.0"
   },
   "author": {
-    "name": "A Strapi developer"
+    "name": "Andrew Alexeev"
   },
   "strapi": {
     "uuid": "c72b65bb-e6b1-407d-83e3-07e766f67285"
