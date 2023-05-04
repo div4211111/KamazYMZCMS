@@ -16,7 +16,7 @@ To run KamazYMZCMS, follow the steps below:
 1. Clone the KamazYMZCMS repository from GitHub using the following command:
 
 ```bash
-git clone https://github.com/<your_username>/kamazymzcms.git
+git clone https://github.com/div4211111/KamazYMZCMS.git
 ```
 
 2. Install the dependencies by running the following command inside the project directory:
@@ -36,7 +36,7 @@ npm run develop
 ## Configuration
 To configure KamazYMZCMS, you can modify the following files:
 
-config/server.js - Modify the server configuration settings such as the server port, database connection string, etc.
-config/plugins.js - Add or remove plugins to extend the CMS functionality.
-config/environments/development/plugins.js - Configure plugins specifically for the development environment.
-config/environments/production/plugins.js - Configure plugins specifically for the production environment.
+* config/server.js - Modify the server configuration settings such as the server port, database connection string, etc.
+* config/plugins.js - Add or remove plugins to extend the CMS functionality.
+* config/environments/development/plugins.js - Configure plugins specifically for the development environment.
+* config/environments/production/plugins.js - Configure plugins specifically for the production environment.
