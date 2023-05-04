@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "applicabilities",
+  "info": {
+    "singularName": "applicability",
+    "pluralName": "applicabilities",
+    "displayName": "Applicability"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "title": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string"
+    }
+  }
+}

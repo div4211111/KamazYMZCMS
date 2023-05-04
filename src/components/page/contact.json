@@ -1,0 +1,47 @@
+{
+  "collectionName": "components_page_contacts",
+  "info": {
+    "displayName": "Contact",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "phone": {
+      "type": "string",
+      "required": true,
+      "unique": true,
+      "minLength": 5
+    },
+    "phoneAvailability": {
+      "type": "string",
+      "required": true,
+      "minLength": 3
+    },
+    "openingHours": {
+      "type": "string",
+      "required": true,
+      "minLength": 3
+    },
+    "address": {
+      "type": "string",
+      "required": true,
+      "minLength": 3
+    },
+    "companyDetails": {
+      "type": "text",
+      "required": true,
+      "minLength": 3
+    },
+    "socialLinks": {
+      "displayName": "SocialLink",
+      "type": "component",
+      "repeatable": true,
+      "component": "page.social-link"
+    },
+    "tellMeLinks": {
+      "type": "component",
+      "repeatable": true,
+      "component": "page.social-link"
+    }
+  }
+}
