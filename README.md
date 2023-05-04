@@ -36,6 +36,8 @@ npm run develop
 ## Configuration
 To configure KamazYMZCMS, you can modify the following files:
 
+
+
 * config/server.js - Modify the server configuration settings such as the server port, database connection string, etc.
 * config/plugins.js - Add or remove plugins to extend the CMS functionality.
 * config/environments/development/plugins.js - Configure plugins specifically for the development environment.
